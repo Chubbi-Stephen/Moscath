@@ -1,0 +1,10 @@
+## Netlify redirects and headers — HTTPS + www → apex
+
+# Force HTTP to HTTPS (Netlify handles this automatically when "Force HTTPS" is
+# enabled in site settings, but this makes it explicit)
+http://moscath.com/*        https://moscath.com/:splat    301!
+http://www.moscath.com/*    https://moscath.com/:splat    301!
+https://www.moscath.com/*   https://moscath.com/:splat    301!
+
+# Custom 404 — tells Netlify to serve 404.html with a real 404 status code
+/*    /404.html    404

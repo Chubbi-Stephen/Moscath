@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block staging/test paths if any are ever created
+Disallow: /staging/
+Disallow: /test/
+
+# Reference canonical sitemap
+Sitemap: https://moscath.com/sitemap.xml

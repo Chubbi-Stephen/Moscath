@@ -1,0 +1,24 @@
+{
+  "name": "Moscath Garden Apartments",
+  "short_name": "Moscath",
+  "description": "Luxury short-let apartments in Lekki, Lagos. Book direct on WhatsApp.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1a1a18",
+  "theme_color": "#b8964e",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "/img/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
