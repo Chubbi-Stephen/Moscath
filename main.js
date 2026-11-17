@@ -415,10 +415,6 @@ function buildApartments() {
 
         <div class="apt-info">
           <h3 class="apt-name">${apt.name}</h3>
-          <div class="apt-price-row">
-            <span class="apt-price">${apt.price}</span>
-            <span class="apt-price-note">${apt.priceNote}</span>
-          </div>
           <p class="apt-desc">${apt.desc}</p>
           <ul class="apt-features">
             ${apt.features.map(f => `
