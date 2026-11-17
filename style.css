@@ -414,7 +414,8 @@ button {
 
 .nav-hamburger span {
 	display: block;
-	height: 1.5px;
+	width: 24px;
+	height: 2px;
 	background: var(--ivory);
 	transition:
 		transform var(--dur-med) var(--ease),
@@ -422,13 +423,13 @@ button {
 }
 
 .nav-hamburger[aria-expanded="true"] span:nth-child(1) {
-	transform: translateY(6.5px) rotate(45deg);
+	transform: translateY(7px) rotate(45deg);
 }
 .nav-hamburger[aria-expanded="true"] span:nth-child(2) {
 	opacity: 0;
 }
 .nav-hamburger[aria-expanded="true"] span:nth-child(3) {
-	transform: translateY(-6.5px) rotate(-45deg);
+	transform: translateY(-7px) rotate(-45deg);
 }
 
 /* Mobile menu */
@@ -791,7 +792,7 @@ button {
 
 .apt-gallery-thumb {
 	flex: 1;
-	aspect-ratio: 3/2;
+	aspect-ratio: 4/3;
 	object-fit: cover;
 	cursor: pointer;
 	opacity: 0.55;
