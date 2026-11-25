@@ -203,13 +203,9 @@ function initApartmentGalleries() {
 
 		// Open lightbox on main image click
 		main.addEventListener("click", () => {
-			const srcs = Array.from(thumbs).map((t) => t.dataset.full);
-			openLightbox(
-				srcs,
-				Array.from(thumbs).map((t) => t.alt),
-				0,
-				main.src,
-			);
+			const srcs = [main.src, ...Array.from(thumbs).map((t) => t.dataset.full)];
+			const alts = [main.alt, ...Array.from(thumbs).map((t) => t.alt)];
+			openLightbox(srcs, alts, 0, main.src);
 		});
 	});
 }
@@ -450,13 +446,14 @@ function buildApartments() {
           />
           <div class="apt-gallery-thumbs">
             ${apt.images
+							.slice(1)
 							.map(
 								(img, j) => `
               <img
                 class="apt-gallery-thumb${j === 0 ? " active" : ""}"
                 src="${img}"
                 data-full="${img}"
-                alt="${apt.name} view ${j + 1}"
+                alt="${apt.name} view ${j + 2}"
                 loading="lazy"
                 tabindex="0"
               />

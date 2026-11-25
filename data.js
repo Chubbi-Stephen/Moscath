@@ -24,7 +24,7 @@ const SITE = {
 	name: "Moscath Garden Apartments",
 	tagline: "A place that feels like yours.",
 	subTagline: "Shortlet apartments in Lekki, Lagos.",
-	address: "11 Murtala Eletu Way, Osapa London, Lekki, Lagos",
+	address: "11b Murtala Eletu Way, Osapa London, Lekki, Lagos",
 	phone: "+234 810 621 5887",
 	phone2: "+234 811 227 0316",
 	email: "moscathgardenapartments@gmail.com",
@@ -48,27 +48,42 @@ const ABOUT = {
 const apartments = [
 	{
 		id: "one-bedroom",
-		name: "The One-Bedroom",
+		name: "The One-Bedroom Apartment",
 		bedrooms: 1,
-		features: ["Separate bedroom", "Living area", "Kitchenette", "Smart TV"],
+		features: [
+			"Spacious living area",
+			"Room En-Suite",
+			"Kitchenette",
+			"Smart TV",
+			"Air-conditioning",
+			"Games",
+		],
 		images: [
-			"img/portfolio/01.jpg", // TODO: Replace with actual photo
-			"img/portfolio/02.jpg", // TODO: Replace with actual photo
-			"img/portfolio/03.jpg", // TODO: Replace with actual photo
+			"img/portfolio/003.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/002.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/001.jpeg", // TODO: Replace with actual photo
 		],
 		desc: "Space to breathe. A separate living area, a quiet bedroom, and a home kitchen, designed for the guest who values their own pace.",
 	},
 	{
 		id: "two-bedroom",
-		name: "The Two-Bedroom",
+		name: "The Two-Bedroom Apartment",
 		bedrooms: 2,
 		price: "₦85,000", // TODO: Confirm nightly price
 		priceNote: "per night",
-		features: ["Two bedrooms", "Full kitchen", "Dining area", "Smart TV"],
+		features: [
+			"Spacious living area",
+			"Rooms En-Suite",
+			"Full kitchen",
+			"Smart TV",
+			"Air-conditioning",
+			"Games",
+		],
 		images: [
-			"img/portfolio/04.jpg", // TODO: Replace with actual photo
-			"img/portfolio/05.jpg", // TODO: Replace with actual photo
-			"img/portfolio/06.jpg", // TODO: Replace with actual photo
+			"img/portfolio/004.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/005.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/006.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/007.jpeg", // TODO: Replace with actual photo
 		],
 		desc: "Generous proportions for families or small groups. Two comfortable bedrooms, a full kitchen, and a living space that invites you to settle in.",
 	},
@@ -76,11 +91,21 @@ const apartments = [
 		id: "four-bedroom-duplex",
 		name: "The Four-Bedroom Duplex",
 		bedrooms: 4,
-		features: ["Four bedrooms", "Two floors", "Full kitchen", "Private lounge"],
+		features: [
+			"Four bedrooms all En-Suite",
+			"Two floors",
+			"Full kitchen",
+			"Private lounge",
+			"Inbuilt speakers",
+			"Games",
+		],
 		images: [
-			"img/portfolio/07.jpg", // TODO: Replace with actual photo
-			"img/portfolio/08.jpg", // TODO: Replace with actual photo
-			"img/portfolio/09.jpg", // TODO: Replace with actual photo
+			"img/portfolio/008.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/009.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/010.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/011.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/012.jpeg", // TODO: Replace with actual photo
+			"img/portfolio/013.jpeg", // TODO: Replace with actual photo
 		],
 		desc: "Our largest residence. A two-floor duplex with four bedrooms, generous living spaces, and room for the whole family to spread out.",
 	},

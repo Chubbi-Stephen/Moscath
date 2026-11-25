@@ -792,6 +792,7 @@ button {
 
 .apt-gallery-thumb {
 	flex: 1;
+	min-width: 0;
 	aspect-ratio: 4/3;
 	object-fit: cover;
 	cursor: pointer;
